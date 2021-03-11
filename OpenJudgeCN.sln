@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1169
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenJudgeCN", "OpenJudgeCN\OpenJudgeCN.csproj", "{ECE060FB-1EBA-4624-9282-A70296BDE0DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenJudgeCN", "OpenJudgeCN1\OpenJudgeCN.csproj", "{3C6B6531-B847-49D6-946C-FA98D79BFF1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenJudgeCN.Algorithm", "OpenJudgeCN.Algorithm\OpenJudgeCN.Algorithm.csproj", "{352716C2-730E-4788-918A-958470E7C94A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenJudgeCN.Bailian", "OpenJudgeCN.Bailian\OpenJudgeCN.Bailian.csproj", "{51A61455-2CD2-4851-A76D-92E45F579D64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ECE060FB-1EBA-4624-9282-A70296BDE0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ECE060FB-1EBA-4624-9282-A70296BDE0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ECE060FB-1EBA-4624-9282-A70296BDE0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ECE060FB-1EBA-4624-9282-A70296BDE0DC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{352716C2-730E-4788-918A-958470E7C94A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{352716C2-730E-4788-918A-958470E7C94A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{352716C2-730E-4788-918A-958470E7C94A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{352716C2-730E-4788-918A-958470E7C94A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C6B6531-B847-49D6-946C-FA98D79BFF1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6B6531-B847-49D6-946C-FA98D79BFF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C6B6531-B847-49D6-946C-FA98D79BFF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6B6531-B847-49D6-946C-FA98D79BFF1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A61455-2CD2-4851-A76D-92E45F579D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A61455-2CD2-4851-A76D-92E45F579D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A61455-2CD2-4851-A76D-92E45F579D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A61455-2CD2-4851-A76D-92E45F579D64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
