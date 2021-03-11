@@ -1,4 +1,5 @@
 ﻿using System;
+using OpenJudgeCN.Bailian;
 
 namespace OpenJudgeCN
 {
@@ -6,7 +7,7 @@ namespace OpenJudgeCN
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Quiz1001.Test();
         }
     }
 }

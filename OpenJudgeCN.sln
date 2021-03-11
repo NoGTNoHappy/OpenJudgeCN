@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenJudgeCN", "OpenJudgeCN1\OpenJudgeCN.csproj", "{3C6B6531-B847-49D6-946C-FA98D79BFF1E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenJudgeCN.Bailian", "OpenJudgeCN.Bailian\OpenJudgeCN.Bailian.csproj", "{51A61455-2CD2-4851-A76D-92E45F579D64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenJudgeCN", "OpenJudgeCN\OpenJudgeCN.csproj", "{4C6EF72D-429C-4FE0-8D49-D568B417DFF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3C6B6531-B847-49D6-946C-FA98D79BFF1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3C6B6531-B847-49D6-946C-FA98D79BFF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3C6B6531-B847-49D6-946C-FA98D79BFF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3C6B6531-B847-49D6-946C-FA98D79BFF1E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{51A61455-2CD2-4851-A76D-92E45F579D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{51A61455-2CD2-4851-A76D-92E45F579D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51A61455-2CD2-4851-A76D-92E45F579D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51A61455-2CD2-4851-A76D-92E45F579D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6EF72D-429C-4FE0-8D49-D568B417DFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6EF72D-429C-4FE0-8D49-D568B417DFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6EF72D-429C-4FE0-8D49-D568B417DFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6EF72D-429C-4FE0-8D49-D568B417DFF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
