@@ -1,5 +1,4 @@
-﻿using System;
-using OpenJudgeCN.Bailian;
+﻿using OpenJudgeCN.Bailian;
 
 namespace OpenJudgeCN
 {
