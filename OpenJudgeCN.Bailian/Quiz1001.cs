@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Text;
 
 namespace OpenJudgeCN.Bailian
@@ -7,15 +8,26 @@ namespace OpenJudgeCN.Bailian
     {
         public static void Test()
         {
-            var input = Console.ReadLine();
-            var strParams = input.Split(" ");
-            var n = Convert.ToByte(strParams[1]);
-            var res = strParams[0];
-            for (var i = 1; i < n; ++i)
-                res = Multiple(res, strParams[0]);
+            var inputList = new List<string>();
+            while (true)
+            {
+                var input = Console.ReadLine();
+                if(string.IsNullOrEmpty(input))
+                    break;
+                inputList.Add(input);
+            }
+
+            foreach (var input in inputList)
+            {
+                var strParams = input.Split(" ");
+                var n = Convert.ToByte(strParams[1]);
+                var res = strParams[0];
+                for (var i = 1; i < n; ++i)
+                    res = Multiple(res, strParams[0]);
 
 
-            Console.WriteLine(FinishResult(res));
+                Console.WriteLine(FinishResult(res));
+            }
         }
 
         private static string Multiple(string a, string b)
