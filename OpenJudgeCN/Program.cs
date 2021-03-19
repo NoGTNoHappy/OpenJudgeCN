@@ -7,7 +7,17 @@ namespace OpenJudgeCN
     {
         static void Main(string[] args)
         {
-            Quiz1001.Test();
+            while (true)
+            {
+                try
+                {
+                    Quiz1001.Test();
+                }
+                catch (Exception e)
+                {
+                    break;
+                }
+            }
         }
     }
 }

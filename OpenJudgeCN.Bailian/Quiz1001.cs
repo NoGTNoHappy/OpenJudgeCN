@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace OpenJudgeCN.Bailian
 {
@@ -18,7 +14,8 @@ namespace OpenJudgeCN.Bailian
             for (var i = 1; i < n; ++i)
                 res = Multiple(res, strParams[0]);
 
-            Console.WriteLine(res);
+
+            Console.WriteLine(FinishResult(res));
         }
 
         private static string Multiple(string a, string b)
@@ -99,6 +96,23 @@ namespace OpenJudgeCN.Bailian
                 res.Insert(0, "1");
 
             return res.ToString();
+        }
+
+        private static string FinishResult(string res)
+        {
+            if (res.IndexOf('.') != -1)
+            {
+                var tmp = res.Split('.');
+                var tmpBefore = tmp[0];
+                tmpBefore = tmpBefore.TrimStart('0');
+                if (tmpBefore.Length == 0)
+                    tmpBefore = tmpBefore.Insert(0, "0");
+
+                res = tmpBefore + "." + tmp[1];
+            }
+
+            res = res.TrimEnd('0');
+            return res;
         }
     }
 }
