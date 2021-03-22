@@ -43,6 +43,8 @@ namespace OpenJudgeCN.Bailian
             for (var i = 0; i < 12; ++i)
                 inputList.Add(float.Parse(Console.ReadLine()));
 
+            Console.WriteLine();
+
             var sum = inputList.Sum();
             var average = Math.Round(sum / 12, 2);
             Console.WriteLine("$" + average);
