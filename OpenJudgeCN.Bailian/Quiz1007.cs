@@ -57,6 +57,7 @@ namespace OpenJudgeCN.Bailian
 
         private static int CalNegSeq(char[] arr)
         {
+            if (arr.Length <= 1) return 0;
             var count = 0;
             var mid = arr.Length / 2;
             var left = arr[..mid];
