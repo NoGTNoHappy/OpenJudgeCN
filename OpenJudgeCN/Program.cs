@@ -6,7 +6,7 @@ namespace OpenJudgeCN
     {
         static void Main(string[] args)
         {
-            Quiz1008.Test();
+            Quiz1009.Test();
         }
     }
 }

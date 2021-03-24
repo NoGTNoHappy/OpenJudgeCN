@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OpenJudgeCN.Bailian
 {
@@ -78,6 +75,7 @@ namespace OpenJudgeCN.Bailian
             private const int NormalMonthDays = 20;
             private const int IrregularMonthCount = 1;
             private const int IrregularMonthDays = 5;
+
             private const int OneYearDays =
                 NormalMonthCount * NormalMonthDays + IrregularMonthCount * IrregularMonthDays;
 
@@ -87,7 +85,7 @@ namespace OpenJudgeCN.Bailian
                 "kankin", "muan", "pax", "koyab", "cumhu", "uayet"
             };
 
-            private ulong _totalDays;
+            private readonly ulong _totalDays;
 
             public Haab(ulong days)
             {
@@ -130,7 +128,7 @@ namespace OpenJudgeCN.Bailian
                 "ix", "mem", "cib", "caban", "eznab", "canca", "ahau"
             };
 
-            private ulong _totalDays;
+            private readonly ulong _totalDays;
 
             public Tzolkin(ulong days)
             {
