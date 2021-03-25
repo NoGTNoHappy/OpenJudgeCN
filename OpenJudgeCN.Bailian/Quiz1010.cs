@@ -203,7 +203,7 @@ namespace OpenJudgeCN.Bailian
 
             public override int GetHashCode()
             {
-                return No.ToString().GetHashCode() & (0x0000FFFF + Val.ToString().GetHashCode()) & 0x0000FFFF;
+                return No.ToString().GetHashCode() ^ Val.ToString().GetHashCode();
             }
 
             public override bool Equals(object obj)
