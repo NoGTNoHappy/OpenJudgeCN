@@ -7,8 +7,8 @@ namespace OpenJudgeCN.Bailian
 {
     public class Quiz1002
     {
-        /*
-        描述
+        public const string Introduce =
+      @"描述
         英文字母（除Q和Z外）和电话号码存在着对应关系，如下所示：
         A,B,C -> 2
         D,E,F -> 3
@@ -50,8 +50,7 @@ namespace OpenJudgeCN.Bailian
         样例输出
         310-1010 2
         487-3279 4
-        888-4567 3 
-        */
+        888-4567 3";
 
         private static readonly Dictionary<char, char> ConvertDict = new Dictionary<char, char>
         {

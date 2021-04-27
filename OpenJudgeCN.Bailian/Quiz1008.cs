@@ -5,8 +5,8 @@ namespace OpenJudgeCN.Bailian
 {
     public class Quiz1008
     {
-        /*
-        描述
+        public const string Introduce =
+      @"描述
         During his last sabbatical, professor M. A. Ya made a surprising discovery about the old Maya calendar.
         From an old knotted message, professor discovered that the Maya civilization used a 365 day long year,
         called Haab, which had 19 months. Each of the first 18 months was 20 days long, and the names of the months
@@ -45,8 +45,7 @@ namespace OpenJudgeCN.Bailian
         3
         3 chuen 0
         1 imix 0
-        9 cimi 2801
-        */
+        9 cimi 2801";
 
         public static void Test()
         {
@@ -104,7 +103,7 @@ namespace OpenJudgeCN.Bailian
                     var totalDays = year * OneYearDays + (month - 1) * NormalMonthDays + day;
                     return new Haab(totalDays);
                 }
-                catch (Exception e)
+                catch
                 {
                     throw new Exception("Can't parse to Haab.");
                 }

@@ -5,8 +5,8 @@ namespace OpenJudgeCN.Bailian
 {
     public class Quiz1003
     {
-        /*
-        描述
+        public const string Introduce =
+      @"描述
         How far can you make a stack of cards overhang a table? If you have one card, you can create a maximum overhang of half a card length.
         (We're assuming that the cards must be perpendicular to the table.) With two cards you can make the top card overhang the bottom
         one by half a card length, and the bottom one overhang the table by a third of a card length, for a total maximum overhang of
@@ -34,8 +34,7 @@ namespace OpenJudgeCN.Bailian
         3 card(s)
         61 card(s)
         1 card(s)
-        273 card(s)
-        */
+        273 card(s)";
 
         public static void Test()
         {

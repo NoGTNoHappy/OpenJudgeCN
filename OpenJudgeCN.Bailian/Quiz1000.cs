@@ -4,8 +4,8 @@ namespace OpenJudgeCN.Bailian
 {
     public class Quiz1000
     {
-        /*
-        描述
+        public const string Introduce =
+      @"描述
         Calculate a + b
         
         输入
@@ -18,8 +18,8 @@ namespace OpenJudgeCN.Bailian
         1 2
 
         样例输出
-        3
-        */
+        3";
+
         public static void Test()
         {
             var input = Console.ReadLine();

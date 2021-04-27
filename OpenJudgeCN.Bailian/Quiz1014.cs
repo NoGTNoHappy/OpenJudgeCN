@@ -8,8 +8,8 @@ namespace OpenJudgeCN.Bailian
 {
     public class Quiz1014
     {
-        /*
-        描述
+        public const string Introduce =
+      @"描述
         Marsha and Bill own a collection of marbles. They want to split the collection among themselves
         so that both receive an equal share of the marbles. This would be easy if all the marbles had the same value,
         because then they could just split the collection in half. But unfortunately, some of the marbles are larger,
@@ -23,13 +23,13 @@ namespace OpenJudgeCN.Bailian
         输入
         Each line in the input file describes one collection of marbles to be divided.
         The lines contain six non-negative integers n1, ..., n6, where ni is the number of marbles of value i.
-        So, the example from above would be described by the input-line "1 0 1 2 0 0".
+        So, the example from above would be described by the input-line ""1 0 1 2 0 0"".
         The maximum total number of marbles will be 20000.
-        The last line of the input file will be "0 0 0 0 0 0"; do not process this line.
+        The last line of the input file will be ""0 0 0 0 0 0""; do not process this line.
 
         输出
-        For each collection, output "Collection #k:", where k is the number of the test case,
-        and then either "Can be divided." or "Can't be divided.".
+        For each collection, output ""Collection #k:"", where k is the number of the test case,
+        and then either ""Can be divided."" or ""Can't be divided."".
         Output a blank line after each test case.
 
         样例输入
@@ -42,8 +42,7 @@ namespace OpenJudgeCN.Bailian
         Can't be divided.
 
         Collection #2:
-        Can be divided.
-        */
+        Can be divided.";
 
         public static void Test()
         {

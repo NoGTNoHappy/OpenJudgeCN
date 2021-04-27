@@ -5,8 +5,8 @@ namespace OpenJudgeCN.Bailian
 {
     public class Quiz1012
     {
-        /*
-        描述
+        public const string Introduce =
+      @"描述
         The Joseph's problem is notoriously known. For those who are not familiar with the original problem:
         from among n people, numbered 1, 2, . . ., n, standing in circle every mth is going to be executed
         and only the life of the last remaining person will be saved. Joseph was smart enough to choose
@@ -29,8 +29,7 @@ namespace OpenJudgeCN.Bailian
 
         样例输出
         5
-        30
-        */
+        30";
 
         // Total count
         private static int _n;

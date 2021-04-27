@@ -5,8 +5,8 @@ namespace OpenJudgeCN.Bailian
 {
     public class Quiz1005
     {
-        /*
-        描述
+        public const string Introduce =
+      @"描述
         Fred Mapper is considering purchasing some land in Louisiana to build his house on. In the process of investigating the land,
         he learned that the state of Louisiana is actually shrinking by 50 square miles each year, due to erosion caused by the Mississippi River.
         Since Fred is hoping to live in this house the rest of his life, he needs to know if his land is going to be lost to erosion.
@@ -34,8 +34,7 @@ namespace OpenJudgeCN.Bailian
         样例输出
         Property 1: This property will begin eroding in year 1.
         Property 2: This property will begin eroding in year 20.
-        END OF OUTPUT.
-        */
+        END OF OUTPUT.";
 
         private const int SquareMilesEachYear = 50;
 

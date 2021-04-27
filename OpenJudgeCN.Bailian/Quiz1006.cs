@@ -5,8 +5,8 @@ namespace OpenJudgeCN.Bailian
 {
     public class Quiz1006
     {
-        /*
-        描述
+        public const string Introduce =
+      @"描述
         Some people believe that there are three cycles in a person's life that start the day he or she is born.
         These three cycles are the physical, emotional, and intellectual cycles, and they have periods of lengths 23, 28, and 33 days,
         respectively. There is one peak in each period of a cycle. At the peak of a cycle, a person performs at his or her best
@@ -47,8 +47,7 @@ namespace OpenJudgeCN.Bailian
         Case 3: the next triple peak occurs in 19575 days.
         Case 4: the next triple peak occurs in 16994 days.
         Case 5: the next triple peak occurs in 8910 days.
-        Case 6: the next triple peak occurs in 10789 days.
-        */
+        Case 6: the next triple peak occurs in 10789 days.";
 
         private const string InputEnd = "-1 -1 -1 -1";
 

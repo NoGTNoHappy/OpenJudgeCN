@@ -7,8 +7,8 @@ namespace OpenJudgeCN.Bailian
 {
     public class Quiz1010
     {
-        /*
-        描述
+        public const string Introduce =
+      @"描述
         Have you done any Philately lately?
         You have been hired by the Ruritanian Postal Service (RPS) to design their new postage software.
         The software allocates stamps to customers based on customer needs and the denominations that are currently in stock.
@@ -30,11 +30,11 @@ namespace OpenJudgeCN.Bailian
         Note: the comments in this example are *not* part of the data file; data files contain only integers.
 
         输出
-        For each customer, you should print the "best" combination that is exactly equal to the customer's needs, with a maximum of four stamps.
-        If no such combination exists, print "none".
-        The "best" combination is defined as the maximum number of different stamp types.
+        For each customer, you should print the ""best"" combination that is exactly equal to the customer's needs, with a maximum of four stamps.
+        If no such combination exists, print ""none"".
+        The ""best"" combination is defined as the maximum number of different stamp types.
         In case of a tie, the combination with the fewest total stamps is best. If still tied, the set with the highest single-value stamp is best.
-        If there is still a tie, print "tie".
+        If there is still a tie, print ""tie"".
         For the sample input file, the output should be:
         7 (3): 1 1 2 3
         4 (2): 1 3
@@ -57,8 +57,7 @@ namespace OpenJudgeCN.Bailian
         4 (2): 1 3 
         6 ---- none
         2 (2): 1 1
-        3 (2): tie
-        */
+        3 (2): tie";
 
         public static void Test()
         {
