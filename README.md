@@ -1,2 +1,2 @@
 # OpenJudgeCN
-My Own Test Repo
+PKU tests in fact
