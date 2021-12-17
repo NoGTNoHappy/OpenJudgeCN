@@ -6,8 +6,8 @@ namespace OpenJudgeCN.Bailian
 {
     public class Quiz1007
     {
-        public const string Introduce =
-      @"描述
+        public const string Introduce = @"
+        描述
         现在有一些长度相等的DNA串（只由ACGT四个字母组成），请将它们按照逆序对的数量多少排序。
         逆序对指的是字符串A中的两个字符A[i]、A[j]，具有i < j 且 A[i] > A[j] 的性质。如字符串”ATCG“中，T和C是一个逆序对，
         T和G是另一个逆序对，这个字符串的逆序对数为2。

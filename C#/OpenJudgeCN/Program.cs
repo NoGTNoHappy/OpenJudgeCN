@@ -10,8 +10,8 @@ namespace OpenJudgeCN
     class Program
     {
         const string Guidance = "Please input test's ID. -l or --list to get available tests. Input \"Q\" to exist.";
-        const string TestNotFound = "{0} is not found in avaliable tests. Input -l or --list to get available tests.\r\n";
-        const string RunTestConfirm = "Input \"R\" to run, or \"H\" to get help.";
+        const string TestNotFound = "{0} is not found in avaliable tests. Please try to get available tests.\r\n";
+        const string RunTestConfirm = "Input \"R\" to run, \"Q\" to return, or \"H\" to get help.";
         const string ContinueAsk = "Continue? Y/N";
         const string Bye = "Bye!";
 
@@ -113,6 +113,10 @@ namespace OpenJudgeCN
                         Console.WriteLine(target.GetField("Introduce").GetValue(null));
                         Console.WriteLine();
                         Console.WriteLine(RunTestConfirm);
+                        break;
+                    case "Q":
+                    case "q":
+                        cancel = true;
                         break;
                     default:
                         Console.WriteLine(RunTestConfirm);

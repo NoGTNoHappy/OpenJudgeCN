@@ -7,8 +7,8 @@ namespace OpenJudgeCN.Bailian
 {
     public class Quiz1010
     {
-        public const string Introduce =
-      @"描述
+        public const string Introduce = @"
+        描述
         Have you done any Philately lately?
         You have been hired by the Ruritanian Postal Service (RPS) to design their new postage software.
         The software allocates stamps to customers based on customer needs and the denominations that are currently in stock.

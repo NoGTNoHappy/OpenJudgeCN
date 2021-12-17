@@ -7,8 +7,8 @@ namespace OpenJudgeCN.Bailian
 {
     public class Quiz1002
     {
-        public const string Introduce =
-      @"描述
+        public const string Introduce = @"
+        描述
         英文字母（除Q和Z外）和电话号码存在着对应关系，如下所示：
         A,B,C -> 2
         D,E,F -> 3

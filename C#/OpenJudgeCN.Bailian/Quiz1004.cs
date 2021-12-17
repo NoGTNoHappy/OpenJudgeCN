@@ -6,8 +6,8 @@ namespace OpenJudgeCN.Bailian
 {
     public class Quiz1004
     {
-        public const string Introduce =
-      @"描述
+        public const string Introduce = @"
+        描述
         Larry今年毕业并找到了一份工作。他赚很多钱，但似乎总是不够。Larry认为他需要控制他的投资以解决自己的财务问题。
 
         Larry拿到了自己的银行账户详单，想看看自己有多少钱。请帮助Larry写一个程序，通过过去12个月中每月的月末结余，计算平均结余。

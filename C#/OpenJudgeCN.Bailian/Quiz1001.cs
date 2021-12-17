@@ -6,8 +6,8 @@ namespace OpenJudgeCN.Bailian
 {
     public class Quiz1001
     {
-        public const string Introduce =
-      @"描述
+        public const string Introduce = @"
+        描述
         Problems involving the computation of exact values of very large magnitude and precision are common.
         For example, the computation of the national debt is a taxing experience for many computer systems.
         

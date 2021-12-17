@@ -7,8 +7,8 @@ namespace OpenJudgeCN.Bailian
 {
     public class Quiz1009
     {
-        public const string Introduce =
-      @"描述
+        public const string Introduce = @"
+        描述
         IONU Satellite Imaging, Inc. records and stores very large images using run length encoding. You are to write a program that
         reads a compressed image, finds the edges in the image, as described below, and outputs another compressed image of the detected edges.
         A simple edge detection algorithm sets an output pixel's value to be the maximum absolute value of the differences between it

@@ -8,8 +8,8 @@ namespace OpenJudgeCN.Bailian
 {
     public class Quiz1013
     {
-        public const string Introduce =
-      @"描述
+        public const string Introduce = @"
+        描述
         Sally Jones has a dozen Voyageur silver dollars. However, only eleven of the coins are true silver dollars;
         one coin is counterfeit even though its color and size make it indistinguishable from the real silver dollars.
         The counterfeit coin has a different weight from the other coins but Sally does not know if it is heavier or lighter than the real coins.

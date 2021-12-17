@@ -5,8 +5,8 @@ namespace OpenJudgeCN.Bailian
 {
     public class Quiz1006
     {
-        public const string Introduce =
-      @"描述
+        public const string Introduce = @"
+        描述
         Some people believe that there are three cycles in a person's life that start the day he or she is born.
         These three cycles are the physical, emotional, and intellectual cycles, and they have periods of lengths 23, 28, and 33 days,
         respectively. There is one peak in each period of a cycle. At the peak of a cycle, a person performs at his or her best

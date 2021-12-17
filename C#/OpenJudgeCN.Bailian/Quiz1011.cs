@@ -6,8 +6,8 @@ namespace OpenJudgeCN.Bailian
 {
     public class Quiz1011
     {
-        public const string Introduce =
-      @"描述
+        public const string Introduce = @"
+        描述
         George took sticks of the same length and cut them randomly until all parts became at most 50 units long.
         Now he wants to return sticks to the original state, but he forgot how many sticks he had originally and how long they were originally.
         Please help him and design a program which computes the smallest possible original length of those sticks.

@@ -8,8 +8,8 @@ namespace OpenJudgeCN.Bailian
 {
     public class Quiz1014
     {
-        public const string Introduce =
-      @"描述
+        public const string Introduce = @"
+        描述
         Marsha and Bill own a collection of marbles. They want to split the collection among themselves
         so that both receive an equal share of the marbles. This would be easy if all the marbles had the same value,
         because then they could just split the collection in half. But unfortunately, some of the marbles are larger,
