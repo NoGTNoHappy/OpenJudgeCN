@@ -3,9 +3,10 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"github.com/NoGTNoHappy/OpenJudgeCN/Go/bailian"
 	"os"
 	"strings"
+
+	"github.com/NoGTNoHappy/OpenJudgeCN/Go/bailian"
 )
 
 const (
@@ -28,8 +29,7 @@ mainLoop:
 			err := recover()
 			if err != nil {
 				fmt.Println(err)
-				isContinue := continueJudge()
-				if isContinue {
+				if continueJudge() {
 					main()
 				}
 			}
@@ -55,9 +55,6 @@ mainLoop:
 			fmt.Println()
 			fmt.Println(guidance)
 		}
-		if !continueJudge() {
-			break
-		}
 	}
 	fmt.Println(bye)
 	fmt.Scanln()
@@ -73,9 +70,7 @@ func findAllTests() (res string) {
 		}
 	}
 
-	if strings.HasSuffix(res, ", ") {
-		res = res[0 : len(res)-2]
-	}
+	res = strings.TrimSuffix(res, ", ")
 	return
 }
 
@@ -116,7 +111,6 @@ func runTest(cmd string) {
 			fmt.Println(runTestConfirm)
 		}
 	}
-	return
 }
 
 func init() {
